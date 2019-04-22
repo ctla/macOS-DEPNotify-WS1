@@ -143,7 +143,7 @@ if [ "$TechBuild" = "Self Install" ]; then
     echo "Command: Quit" >>  "$DEP_NOTIFY_CONFIG"
   fi
   echo "Command: MainTitle: Installing Applications" >> $DEP_NOTIFY_CONFIG
-  echo "Command: MainText: We are now going to install a few applications. If you need additional software that is not included on your mac, please submit a ticket to the help desk ITS.Service.Desk@alaskaair.com" >> $DEP_NOTIFY_CONFIG
+  echo "Command: MainText: We are now going to install a few applications. If you need additional software that is not included on your mac, please submit a ticket to the help desk emailhere@company.com" >> $DEP_NOTIFY_CONFIG
   echo "Command: Determinate: 12" >> $DEP_NOTIFY_CONFIG
   echo "Status: Looking for some apps to install" >> $DEP_NOTIFY_CONFIG
   sleep 20
